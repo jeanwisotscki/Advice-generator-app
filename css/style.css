@@ -1,7 +1,30 @@
+:root{
+  /* PRIMARY */
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+
+  /* Neutral */
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
 body{
   background-color: #456;
+  font-family: 'Manrope', sans-serif;
+}
+
+.span{
+  color: #fff;
 }
 
 .paragraph{
-  color: white;
+  color: #fff;
 }
