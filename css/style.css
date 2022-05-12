@@ -19,6 +19,16 @@
 body{
   background-color: #456;
   font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  max-width: 40rem;
+  width: 90%;
+  border: 1px solid #fff;
 }
 
 .span{
