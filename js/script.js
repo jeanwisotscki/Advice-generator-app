@@ -1,10 +1,10 @@
 const btn = document.querySelector("#btn");
 const span = document.querySelector(".span");
-const p = document.querySelector(".paragraph");
+const wrapper = document.querySelector(".wrapper");
 
 function changeDOM(json) {
   span.innerText = `ADVICE #${json.slip.id}`;
-  p.innerText = `"${json.slip.advice}"`;
+  wrapper.innerText = `"${json.slip.advice}"`;
 }
 
 async function getAdvice() {
