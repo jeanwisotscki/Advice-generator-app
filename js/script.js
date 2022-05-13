@@ -7,7 +7,7 @@ function changeDOM(json) {
   wrapper.innerText = `"${json.slip.advice}"`;
 }
 
-async function getAdvice() {
+async function fetchAdvice() {
   try {
     const response = await fetch("	https://api.adviceslip.com/advice");
     if (!response.ok) throw new Error();
@@ -15,9 +15,7 @@ async function getAdvice() {
     changeDOM(json);
   } catch (erro) {
     console.log(erro);
-  } finally {
-    console.log("fim");
   }
 }
 
-btn.addEventListener("click", getAdvice);
+btn.addEventListener("click", fetchAdvice);
