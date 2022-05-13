@@ -4,7 +4,7 @@ const p = document.querySelector(".paragraph");
 
 function changeDOM(json) {
   span.innerText = `ADVICE #${json.slip.id}`;
-  p.innerText = json.slip.advice;
+  p.innerText = `"${json.slip.advice}"`;
 }
 
 async function getAdvice() {
