@@ -6,7 +6,7 @@
 
 Confira o resultado [clicando aqui](https://jeanwisotscki.github.io/Advice-generator-app/) (Dica: control + click para abrir o link em uma nova guia. 😉)
 
-# Design
+# Screenshots
 
 ![Desktop](./images/desktop.png)
 ![Mobile](./images/mobile.png)
