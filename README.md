@@ -6,10 +6,9 @@
 
 Confira o resultado [clicando aqui](https://jeanwisotscki.github.io/Advice-generator-app/) (Dica: control + click para abrir o link em uma nova guia. 😉)
 
-# Screenshots
+# Preview do projeto
 
-![Desktop](./images/desktop.png)
-![Mobile](./images/mobile.png)
+![Preview](./images/advice-app.gif)
 
 # Techs usadas no desenvolvimento
 
